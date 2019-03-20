@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registro de Útiles de la Institución</title>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Sniglet" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/registro_utiles.css">
+</head>
+
+<body>
+    <header class="header_principal">
+        <nav>
+            <div id=menu_principal>
+                <img src="img/logo_app.jpeg" id="logo_app" alt="logotipo_1">
+                <a href="">INICIO</a>
+                <a href="">CENTRO EDUCATIVO</a>
+                <a href="">FAMILIA</a>
+                <a href="">BUSCAR</a>
+                <a href="">CONTACTENOS</a>
+                <button type="button" id="login_in">Iniciar Sesión</button>
+                <button type="button" id="login_out">Cerrar Sesión</button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="formulario">
+            <form>
+                <h1>
+                    REGISTRO DE ÚTILES ESCOLARES DE LA INSTITUCIÓN
+                </h1>
+                <div>
+                    <label for="txt_util_centro">Útil Escolar:</label>
+                    <input type="text" id="txt_util_centro">
+                </div>
+                <div>
+                    <label for="txt_numero_utiles_centro">Número necesitado:</label>
+                    <input type="number" id="txt_numero_utiles_centro">
+                </div>
+                <div>
+                    <label for="txt_descripcion_utiles_centro">Descripción:</label>
+                    <textarea id="txt_descripcion_utiles_centro"></textarea>
+                </div>
+                <div>
+                    <button type="button" id="btn_registrar">Registrar</button>
+                </div>
+            </form>
+
+        </div>
+
+    </main>
+    <footer>
+        <div id="menu_secundario">
+
+            <div id="columna_1">
+                <h2>POWERED BY:</h2>
+                <img src="img/logo_indominus.PNG" id="logo_empresa" alt="logotipo_2">
+            </div>
+
+            <div id="columna_2">
+                <h2>
+                    SITIOS DE INTERÉS
+                </h2>
+                <div>
+                    <a href="https://www.mep.go.cr/">Ministerio de Educación Pública</a>
+                </div>
+                <div>
+                    <a href="http://www.mcj.go.cr/">Misterio de Cultura y Juventud</a>
+                </div>
+            </div>
+
+
+            <div id="columna_3">
+                <h2>
+                    INFORMACIÓN
+                </h2>
+                <div>
+                    <a href="">Acerca del Sitio</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/servicio_utiles_centro.js"></script>
+    <script src="js/controlador_registrar_utiles_centro.js"></script>
+</body>
+
+</html>

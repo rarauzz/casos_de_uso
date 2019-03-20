@@ -1,0 +1,95 @@
+html , button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+body{
+    background-color: #969393;
+}
+h1 h2 h3{
+    font-family: 'Sniglet', cursive;
+}
+.error_input{
+    border: 3px solid #ED4C67;
+}
+.header_principal{
+    background-color:#1e9b44; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align:right; 
+    margin-bottom: 30px;
+}
+.header_principal nav{
+    margin-right:30px;
+}
+.header_principal nav a{
+    color: #ecf0f1;
+    text-decoration:none;
+    margin-bottom:20px;
+    margin:0 20px 0 10px;
+    font-size:14px;
+    font-weight: bolder;
+}
+ button{
+    background-color: none;
+    color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+    background-color:#1e9b44;
+    font-size: 12;
+}
+.header_principal img{
+    width: 80px;
+    height: 80px;
+    margin-right: 300px;
+}
+footer{
+    display:flow-root;
+    background-color:#1d9e2f; 
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+#columna_1 , #columna_2 , #columna_3{
+    float: left;
+    margin: 0 30px;
+    padding-bottom:10px;
+}
+
+#columna_1 div, #columna_2 div, #columna_3 div{
+margin-bottom: 20px;
+}
+#columna_1 a, #columna_2 a, #columna_3 a{
+    font-size: 12px;
+    color: #ecf0f1;
+    text-decoration:none;
+}
+#logo_empresa{
+    width:100px;
+    height: 100px;   
+}
+#menu_secundario{
+ width: 900px;
+ text-align:center;
+ display: block;
+ margin:0 auto;
+}
+footer h2{
+margin-bottom: 20px;
+padding-top:20px;
+text-align: center;
+font-weight: bold;
+color: #ecf0f1;
+}
+button:hover{
+background-color: #A59c20;
+color:#FFFFFF;
+font-weight: bolder;
+text-shadow: 2px 2px 4px #000000
+
+}
+a:hover{
+    color:#969393;
+    font-weight: bolder;
+    text-shadow: 3px 3px 6px #000000
+}

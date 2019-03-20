@@ -1,0 +1,51 @@
+main {
+
+    background-color: none;
+    color: #ecf0f1;
+    border: 2px solid #1e9b44;
+    background-color:#969393;
+    width: 475px;
+    height: 400px;
+    margin:0 auto;
+    text-align: center;
+    padding: 35px;
+    margin-bottom: 30px;
+}
+#formulario{
+    display:flow-root;
+}
+h1{
+    margin-bottom: 30px;
+    text-align:center;
+    font-weight: bolder;
+}
+form input{
+display:block;
+padding-bottom: 6px;
+font-family: 'Poppins';
+font-size: 18px;
+color:#000000;
+font-weight: bold;
+}
+form label{
+    border: none;
+    background: #1e9b44;
+    color: #FFFFFF;
+    float: left;
+    padding:10px 20px;
+    text-align: center;
+}
+form div{
+    margin-bottom: 50px;
+    text-align: center;
+}
+form textarea{
+    font-family: 'Poppins';
+    font-size: 18px;
+    width: 260px;
+    padding-bottom: 40px;
+}
+
+#txt_util_oficial{
+    width:300px;
+}
